@@ -14,6 +14,6 @@ class EmailParser
   
   def parse
     #binding.pry
-    email_array = @emails.split(/[\s]+/)
+    email_array = @emails.split(/[\s,]+/)
   end
 end
