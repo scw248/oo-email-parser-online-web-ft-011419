@@ -13,7 +13,7 @@ class EmailParser
   attr_accessor :emails
   
   def parse
-    binding.pry
     email_array = @emails.split(/[\s,]+/)
+    binding.pry
   end
 end
